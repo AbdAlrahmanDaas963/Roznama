@@ -3,12 +3,17 @@ import axios from "axios";
 import MiniCard from "./components/common/MiniCard";
 function App() {
   const [state, setState] = useState();
+  var today = new Date();
+  var dd = String(today.getDate()).padStart(2, "0");
+  var mm = String(today.getMonth() + 1).padStart(2, "0"); //January is 0!
+  var yyyy = today.getFullYear();
 
+  today = mm + "-" + dd + "-" + yyyy;
+  let api = `https://api.aladhan.com/v1/timingsByAddress/${today}?address=Hama,SY&method=8`;
+  // "https://api.aladhan.com/v1/timingsByAddress/17-04-2022?address=Hama,SY&method=8"
   useEffect(() => {
     const res = async () => {
-      const data = await axios.get(
-        "https://api.aladhan.com/v1/timingsByAddress/17-04-2022?address=Hama,SY&method=8"
-      );
+      const data = await axios.get(api);
       setState(data);
       console.log("data", data);
       console.log("state", state);
