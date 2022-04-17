@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Roznama/static/css/main.64a9ac42.chunk.css",
+    "main.js": "/Roznama/static/js/main.415504dd.chunk.js",
+    "main.js.map": "/Roznama/static/js/main.415504dd.chunk.js.map",
+    "runtime-main.js": "/Roznama/static/js/runtime-main.1eafc4b8.js",
+    "runtime-main.js.map": "/Roznama/static/js/runtime-main.1eafc4b8.js.map",
+    "static/js/2.9aac92ad.chunk.js": "/Roznama/static/js/2.9aac92ad.chunk.js",
+    "static/js/2.9aac92ad.chunk.js.map": "/Roznama/static/js/2.9aac92ad.chunk.js.map",
+    "static/js/3.af495d17.chunk.js": "/Roznama/static/js/3.af495d17.chunk.js",
+    "static/js/3.af495d17.chunk.js.map": "/Roznama/static/js/3.af495d17.chunk.js.map",
+    "index.html": "/Roznama/index.html",
+    "static/css/main.64a9ac42.chunk.css.map": "/Roznama/static/css/main.64a9ac42.chunk.css.map",
+    "static/js/2.9aac92ad.chunk.js.LICENSE.txt": "/Roznama/static/js/2.9aac92ad.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1eafc4b8.js",
+    "static/js/2.9aac92ad.chunk.js",
+    "static/css/main.64a9ac42.chunk.css",
+    "static/js/main.415504dd.chunk.js"
+  ]
+}
